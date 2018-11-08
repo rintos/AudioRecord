@@ -56,7 +56,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
             soundPlayer = try AVAudioPlayer(contentsOf: audioFileName)
             soundPlayer.delegate = self
             soundPlayer.prepareToPlay()
-            soundPlayer.volume = 1.0
+            soundPlayer.volume = 3.0
         } catch {
             print(error)
         }
