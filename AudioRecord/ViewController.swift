@@ -83,7 +83,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
             botaoPlay.isEnabled = false
         }
     }
-    
+        
     @IBAction func playAction(_ sender: Any) {
         if botaoPlay.titleLabel?.text == "Play" {
             botaoPlay.setTitle("Stop", for: .normal)
